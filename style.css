@@ -1,17 +1,18 @@
-.heading{
-    color: blue;
-    text-align: center;
-    padding-top:20px;
-    font-family: 'Times New Roman', Times, serif;
+.posName{
+    left: 8vw;
+    top: 24vh;
 }
-.subHeading{
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding-top: 18px;
-    text-shadow: aqua;
-    text-decoration: aqua;
+
+.posAbout{
+    left: 8vw;
+    top: 28vh;
 }
-.image1{
-    float: middle;
+
+.posImage{
+    left: 34vw;
+    top: -12vh;
+}
+
+.coloredv{
+    background-color: red;
 }
