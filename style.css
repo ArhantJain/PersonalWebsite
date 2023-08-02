@@ -13,6 +13,41 @@
     top: -12vh;
 }
 
-.coloredv{
+.progres{
     background-color: red;
+    position: fixed;
+    z-index: 1;
+    animation: progressbar 2s linear 1;
+}
+
+@keyframes progressbar {
+    0%{
+        width: 0vw;
+        height: 2px;
+    }
+    50%  {
+        width: 60vw;
+        height: 2px;
+    }
+    100% {
+        width: 100vw;
+        height:2px;
+    }
+}
+
+.reco{
+    background-color: red;
+    height: 0px;
+    position: fixed;
+    z-index: 1;
+    animation: testimonials 2s linear 1;
+}
+
+@keyframes testimonials {
+    from{
+        width:500px;
+    }
+    to{
+        width:700px;
+    }
 }
