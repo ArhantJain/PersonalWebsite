@@ -1,23 +1,56 @@
-.posName{
-    left: 8vw;
-    top: 24vh;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Roboto&family=Ubuntu:wght@500&display=swap');
+
+
+.name1{
+    font-size: 4vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow: hidden; /*Hide any overflowing text */
+    white-space: nowrap; /* Prevent line breaks */
+    animation: typing 3s steps(400) 0.25s forwards;
+    
+}
+.content1{
+    font-size: 1.25vw;
+    font-family: 'Roboto', sans-serif;
 }
 
-.posAbout{
-    left: 8vw;
-    top: 28vh;
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
 
-.posImage{
-    left: 34vw;
-    top: -12vh;
+  body {
+    animation: fadeInAnimation linear 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.60;
+    }
+    75%{
+        opacity: 0.85;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .progres{
     background-color: red;
     position: fixed;
     z-index: 1;
-    animation: progressbar 2s linear 1;
+    animation: progressbar 3s linear 1;
 }
 
 @keyframes progressbar {
@@ -35,21 +68,10 @@
     }
 }
 
-.reco{
-    background-color: red;
-    height: 0px;
-    position: fixed;
-    z-index: 1;
-    animation: testimonials 2s linear 1;
-}
-
-@keyframes testimonials {
-    from{
-        width:500px;
-    }
-    to{
-        width:700px;
-    }
+.remove1{
+    /* font-size: 2vw; */
+    font-weight: 900;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 @media screen and (max-width: 991px) {
