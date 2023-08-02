@@ -4,7 +4,7 @@
 
 
 .name1{
-    font-size: 4vw;
+    font-size: 3.75vw;
     font-family: 'IBM Plex Sans', sans-serif;
     overflow: hidden; /*Hide any overflowing text */
     white-space: nowrap; /* Prevent line breaks */
@@ -12,7 +12,8 @@
     
 }
 .content1{
-    font-size: 1.25vw;
+    font-size: 1.20vw;
+    overflow: hidden; 
     font-family: 'Roboto', sans-serif;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .progres{
-    background-color: red;
+    background-color: white;
     position: fixed;
     z-index: 1;
     animation: progressbar 3s linear 1;
