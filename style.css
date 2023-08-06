@@ -7,7 +7,6 @@
 
 .name1{
     font-size: 3.75vw;
-    font-family: 'IBM Plex Sans', sans-serif;
     overflow: hidden; /*Hide any overflowing text */
     white-space: nowrap; /* Prevent line breaks */
     animation: typing 3s steps(400) 0.25s forwards;
