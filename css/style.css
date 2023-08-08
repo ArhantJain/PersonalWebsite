@@ -6,14 +6,14 @@
 
 
 .name1{
-    font-size: 3.75vw;
+    font-size: 3.75vmax;
     overflow: hidden; /*Hide any overflowing text */
     white-space: nowrap; /* Prevent line breaks */
     animation: typing 3s steps(400) 0.25s forwards;
     
 }
 .content1{
-    font-size: 1.20vw;
+    font-size: 1.20vmax;
     overflow: hidden; 
     font-family: 'Roboto', sans-serif;
 }
@@ -76,7 +76,7 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
     .remove1 {
       display: none;
     }
@@ -96,4 +96,22 @@
 }
 .card:hover {
     transform: scale(1.1);
+}
+  /* Media query for small screens */
+@media (min-width: 515px) and (max-width: 767px) {
+    .name1 {
+        font-size: 30px;
+    }
+    .content1 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 515px) {
+    .name1 {
+        font-size: 21px;
+    }
+    .content1 {
+        font-size: 10px;
+    }
 }
